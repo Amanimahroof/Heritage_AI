@@ -1,0 +1,25 @@
+# Virtual environment — never push this, it's huge and machine-specific
+heritage_env/
+
+# Secrets — NEVER push your API key
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Vector store — regenerable from Documents/ by running Section 1-2 of the notebook,
+# no need to push (keeps repo smaller and avoids potential large-file issues)
+RAG_System/faiss_index/
+
+# Local test dataset folder (if present) — the actual training dataset lives on
+# Kaggle/Google Drive already; this local copy (if you have one) was just for
+# manual testing and isn't needed in the repo
+dataset/
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
