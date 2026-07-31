@@ -93,7 +93,3 @@ the same session.
 5. A self-built lightweight memory component tracks conversation history, enabling
    multi-turn follow-up questions
 
-## Note on Model File Size
-
-If `efficientnet_heritage.pth` exceeds GitHub's 100MB limit, it is linked via Google
-Drive instead of committed directly: [add your Drive link here if applicable]
